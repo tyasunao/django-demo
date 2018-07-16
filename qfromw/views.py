@@ -29,7 +29,7 @@ def appmain(request):
 
     # demo/main.hml に値を渡す
     return render(request, 'demo/main.html', {
-p        'answer' : title,
+        'answer' : title,
         'descr' : description3,
     })
 
